@@ -53,7 +53,7 @@ Antworte mit deinem typischen Stil – listig, charmant und überraschend clever
 
   try {
     const response = await openai.chat.completions.create({
-      model: "gpt-3.5-turbo", // ggf. "gpt-4", falls verfügbar
+      model: "gpt-4-turbo",
       messages: [
         { role: "system", content: prompt },
         { role: "user", content: message.content }
